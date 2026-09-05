@@ -24,9 +24,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       # Runs a single command using the runners shell
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v0
     - name: Setup on python 3.9.25
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v0
       with:
         python-version: 3.9.25
 
